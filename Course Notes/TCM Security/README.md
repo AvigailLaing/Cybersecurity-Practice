@@ -40,13 +40,13 @@ code
 
 ### OSI Model
 #### Breakdown of Each Layer
-1 Physical: things like data cables, Cat 6
-2 Data switching: MAC addresses & NIC
-3 Network: IP addresses, routing
-4 Transport: TCP/UDP
-5 Session: session management
-6 Presentation: WMV, JPEG, MOV
-7 Application: HTTP, SMTP
+1. Physical: things like data cables, Cat 6
+2. Data switching: MAC addresses & NIC
+3. Network: IP addresses, routing
+4. Transport: TCP/UDP
+5. Session: session management
+6. Presentation: WMV, JPEG, MOV
+7. Application: HTTP, SMTP
 
 * We *receive* data down the physical layer all the way down to application
 * We *transmit* data from the application layer all the way down to physical
