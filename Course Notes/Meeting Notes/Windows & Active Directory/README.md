@@ -35,3 +35,26 @@
 * AD usually refers to Active Directory Domain Services (AD DS)
 * Provides centralized and standard management of network "objects"
   * Like Users, Groups, Computers, Policies, etc.
+ * A forest is a logical collection of AD domains
+ * A domain is a logical grouping of resources (users, machines, OUs, containers)
+ * **The domain controller is the server that handles security authentication requests within a domain**
+ * Users are accounts within the domain
+ * Groups are groups of users
+ * Policies are rules that apply to objects in the domain (ex. when login can be, if users can install things, password length
+ * https://tryhackme.com/room/winadbasics
+## Local vs Domain Accounts
+* Logging in on a personal computer is a local account, but if an account is on AD, it will also have a domain account
+* Local System & NT AUTHORITY\SYSTEM are Local Admin
+* SYSTEM is also local admin, but slightly different
+* Domain Admin is the admin of all accounts on the domain
+## Windows Credentials
+* LM is the LAN Manager; it is old, extremely weak hashing from Windows
+* NT hash is the equivalent of a password in Windows; not as weak, but still a weak hash
+* NTLM is LM + NT hash: combination of null LM hash and NT hash of your password
+### For Network Authentication
+* We don't use NTLM, we use NetNTLM
+* NetNTLMv1 is a reversible hash, bad
+* NetNTLMv2 is a crackable hash
+* Kerberos is an authentication protocol
+
+Stopped at 29:13, talking about Windows Credentials
