@@ -73,6 +73,7 @@ code
 
 ## Hour 3
 * Working on installing VMWare Kali instead of VirtualBox
+* Stopped at 1:55:39 of video, still need to unzip the VMWare Kali file
 * Will need to re-do all of the UFSIT instructions for jumpbox and connecting to Sliver
 * But that's fine because I hated VirtualBox
 * https://notebooklm.google.com/notebook/b45d0154-fe34-4385-8026-277fbefc5f36?_gl=1*e7qvf1*_ga*MTEyNDc5NTczNC4xNzI5MTc2NTE1*_ga_W0LDH41ZCB*MTcyOTQ0NzYzNi4zLjEuMTcyOTQ0NzYzNi42MC4wLjA.
