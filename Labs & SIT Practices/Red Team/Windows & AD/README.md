@@ -148,4 +148,11 @@
   * seimpersonate lets you impersonate another client, usually means easy privesc through potato attacks
     * service accounts often have this so that they can impersonate other users to work correctly; this can be used to impersonate any user including SYSTEM 
   * sebackupprivilege/serestoreprivilege lets you read/write any files, read the nts.dit file and dump something
-* potato attacks: trick a process to run as an administrator and do things for you  
+* potato attacks: trick a process to run as an administrator and do things for you
+### Good Resources
+* TCM Security AD Course
+* Netexec Wiki
+* THM Enterprise Room
+* Game of Active Directory
+* TheHackerRecipes
+* VulnLab
